@@ -55,7 +55,7 @@ hi SpecialKey   ctermfg=77  guifg=#5fdf5f
 hi SpellBad     ctermfg=160 guifg=fg      ctermbg=bg                cterm=underline               guisp=#df0000
 hi SpellCap     ctermfg=189 guifg=#d0d0ff ctermbg=bg  guibg=bg      cterm=underline gui=underline 
 hi SpellRare    ctermfg=168 guifg=#d75f87 ctermbg=bg  guibg=bg      cterm=underline gui=underline 
-hi StatusLine                             ctermbg=239 guibg=#4e4e4e cterm=bold gui=bold
+hi StatusLine   ctermfg=150 guifg=#afdf87 ctermbg=239 guibg=#4e4e4e cterm=bold gui=bold
 hi StatusLineNC                           ctermbg=237 guibg=#3a3a3a cterm=none gui=none
 hi TabLine      ctermfg=fg  guifg=fg      ctermbg=242 guibg=#666666 cterm=none gui=none
 hi TabLineFill  ctermfg=fg  guifg=fg      ctermbg=239 guibg=#4e4e4e cterm=none gui=none
