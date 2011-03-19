@@ -55,14 +55,14 @@ hi SpecialKey   ctermfg=77  guifg=#5fdf5f
 hi SpellBad     ctermfg=160 guifg=fg      ctermbg=bg                cterm=underline               guisp=#df0000
 hi SpellCap     ctermfg=189 guifg=#d0d0ff ctermbg=bg  guibg=bg      cterm=underline gui=underline 
 hi SpellRare    ctermfg=168 guifg=#d75f87 ctermbg=bg  guibg=bg      cterm=underline gui=underline 
-hi StatusLine   ctermfg=150 guifg=#afdf87 ctermbg=239 guibg=#4e4e4e cterm=bold gui=bold
-hi StatusLineNC                           ctermbg=237 guibg=#3a3a3a cterm=none gui=none
+hi StatusLine   ctermfg=255 guifg=#ffffff ctermbg=239 guibg=#4e4e4e cterm=bold gui=bold
+hi StatusLineNC ctermfg=250 guifg=#bcbcbc ctermbg=237 guibg=#3a3a3a cterm=none gui=none
 hi TabLine      ctermfg=fg  guifg=fg      ctermbg=242 guibg=#666666 cterm=none gui=none
-hi TabLineFill  ctermfg=fg  guifg=fg      ctermbg=239 guibg=#4e4e4e cterm=none gui=none
+hi TabLineFill  ctermfg=fg  guifg=fg      ctermbg=237 guibg=#3a3a3a cterm=none gui=none
 hi Title        ctermfg=225 guifg=#ffdfff
 hi Todo         ctermfg=0   guifg=#000000 ctermbg=184 guibg=#dfdf00
 hi Underlined   ctermfg=39  guifg=#00afff                           cterm=underline gui=underline
-hi VertSplit    ctermfg=239 guifg=#4e4e4e ctermbg=239 guibg=#4e4e4e cterm=none gui=none
+hi VertSplit    ctermfg=237 guifg=#3a3a3a ctermbg=237 guibg=#3a3a3a cterm=none gui=none
 " hi VIsualNOS    ctermfg=24  guifg=#005f87 ctermbg=153 guibg=#afdfff cterm=none gui=none
 " hi Visual       ctermfg=24  guifg=#005f87 ctermbg=153 guibg=#afdfff
 hi Visual       ctermfg=255 guifg=#eeeeee ctermbg=96  guibg=#5f875f
