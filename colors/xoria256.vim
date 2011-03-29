@@ -21,8 +21,6 @@ if &t_Co != 256 && ! has("gui_running")
   finish
 endif
 
-set background=dark
-
 hi clear
 
 if exists("syntax_on")
@@ -34,6 +32,7 @@ let colors_name = "xoria256"
 " Colours {{{1 
 "" General {{{2
 hi Normal       ctermfg=252 guifg=#d0d0d0 ctermbg=234 guibg=#1c1c1c cterm=none gui=none
+set background=dark " ctermbg=234 gets detected as light, but is dark (Vim 7.3.35, Konsole)
 hi Cursor                                 ctermbg=214 guibg=#ffaf00
 hi CursorColumn                           ctermbg=238 guibg=#444444
 hi CursorLine                             ctermbg=238 guibg=#444444 cterm=none
